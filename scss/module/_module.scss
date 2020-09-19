@@ -1,0 +1,23 @@
+@import '../mixins/mixins';
+
+.CPDetail{
+    &-H2{
+               /*M_Title($fz,$color,$fw) */
+        @include M_Title(15px,black,bold);    
+    }    
+    &-P1{
+               /*M_Title($fz,$color,$fw) */
+        @include M_Title(50px,black,bold);        
+    }
+    
+    &-P2{
+            /*M_Title($fz,$color,$fw) */
+        @include M_Title(10px,blck,bold);        
+    }
+    &-P3{
+        /*M_Title($fz,$color,$fw) */
+        @include M_Title(20px,blue,bold);        
+    }
+
+}
+
